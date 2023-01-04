@@ -41,7 +41,7 @@ const Home = () => {
   return (
     <div className='home'>
       <div className="d-flex justify-content-between intro">
-      {(!currentUser.bio&& currentUser.role==="user" )&& <Bio/> } 
+      {(!currentUser?.bio&& currentUser?.role==="user" )&& <Bio/> } 
      
      <TagCloudComponent/>
       </div>
